@@ -23,16 +23,5 @@ public class NowPlayingActivity extends AppCompatActivity {
             itemFirstLine.setText(extras.getString("FIRSTLINE"));
             itemSecondLine.setText(extras.getString("SECONDLINE"));
         }
-
-
-        Button back = (Button) findViewById(R.id.back_button);
-
-        // Set a click listener on that View
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                NavUtils.navigateUpFromSameTask(NowPlayingActivity.this);
-            }
-        });
     }
 }

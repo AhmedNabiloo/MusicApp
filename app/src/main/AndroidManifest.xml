@@ -80,7 +80,12 @@
 
         <activity
             android:name=".NowPlayingActivity"
-            android:label="@string/category_now_playing">
+            android:label="@string/category_now_playing"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
 
     </application>

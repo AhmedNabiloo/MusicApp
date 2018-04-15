@@ -25,7 +25,7 @@
         android:text="Line 2" />
 
     <Button
-        android:id="@+id/back_button"
+        android:id="@+id/play_button"
         style="@style/PlayButtonStyle"
         android:background="@drawable/play" />
 
